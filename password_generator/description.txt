@@ -1,0 +1,7 @@
+Steps:
+1. Add shebang: #!/usr/bin/env python
+2. Add to execute file: chmod +x generatepassword.py
+3. Remove the extension of the file: mv generatepassword.py generatepassword
+4. Move it to /usr/local/bin: mv ./generatepassword /usr/local/bin
+
+https://pythobyte.com/create-custom-terminal-command-1dr0yhg33s-eef956b2/
