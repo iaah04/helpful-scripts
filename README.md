@@ -13,7 +13,9 @@ You can create a little scripts, just follow this instruction. I will use passwo
 2. Add shebang: #!/usr/bin/env python
 3. Add to execute file: 
 
-### chmod +x generatepassword.py
+```
+chmod +x generatepassword.py
+```
 
 4. Remove the extension of the file: 
 
