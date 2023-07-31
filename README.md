@@ -19,10 +19,14 @@ chmod +x generatepassword.py
 
 4. Remove the extension of the file: 
 
-### mv generatepassword.py generatepassword
+```
+mv generatepassword.py generatepassword
+```
 
 5. Move it to /usr/local/bin: 
 
-### mv ./generatepassword /usr/local/bin
+```
+mv ./generatepassword /usr/local/bin
+```
 
 6. Usage of the scripts is on description.txt file.
