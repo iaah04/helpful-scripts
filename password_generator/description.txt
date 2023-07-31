@@ -8,5 +8,5 @@ Usage:
 generatepassword -l 15
 generatepassword --length 15
 
-Link:
+Link :
 https://pythobyte.com/create-custom-terminal-command-1dr0yhg33s-eef956b2/
