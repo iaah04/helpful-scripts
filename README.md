@@ -4,7 +4,9 @@
 
 1. Clone the project:
 
-### git clone git@github.com:iaah04/helpful-scripts.git
+```
+git clone git@github.com:iaah04/helpful-scripts.git
+```
 
 ## Usage
 
