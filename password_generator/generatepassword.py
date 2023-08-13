@@ -16,8 +16,8 @@ def generate_password(length):
 if args.length:
     if args.length < 12:
         print("Password length cannot be less than 12.")
-    elif args.length > 20:
-        print("Password length cannot exceed 20.")
+    elif args.length > 40:
+        print("Password length cannot exceed 40.")
     else:
         password = generate_password(args.length)
         print(password)

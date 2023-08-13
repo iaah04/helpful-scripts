@@ -1,0 +1,8 @@
+Usage:
+!!! No validation
+
+decode:
+python3 imgstega.py -e -m "Hello" -op "./img.png" -rp "./img2.png"
+
+encode:
+python3 imgstega.py -d -op "./meme2.png"
