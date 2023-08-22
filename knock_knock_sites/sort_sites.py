@@ -5,7 +5,7 @@ import re
 
 substring_to_exclude = "onion"
 
-with open("list_of_links_c36d83c9-4872-4dd3-9bb3-b8ea34046e15.json", "r") as json_file:
+with open("list_of_links.json", "r") as json_file:
     links = json.load(json_file)
 
 dark_links = [link for link in links if substring_to_exclude in link]

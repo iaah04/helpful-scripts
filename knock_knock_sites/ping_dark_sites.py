@@ -8,7 +8,7 @@ session.proxies["http"] = "socks5h://localhost:9050"
 session.proxies["https"] = "socks5h://localhost:9050"
 
 with open(
-    "list_of_dark_sites_0de2ba45-f0bb-4091-b0dc-937b79d47335.json", "r"
+    "list_of_dark_sites_72611697-b17f-4db7-b2e1-043e13bc9468.json", "r"
 ) as json_file:
     links = json.load(json_file)
 
@@ -25,7 +25,7 @@ for link in links:
     except requests.RequestException as e:
         print(f"An error occurred: {e}")
 
-file_name = f"list_of_statuses_{uuid.uuid4()}.json"
+file_name = f"list_of_dark_statuses_{uuid.uuid4()}.json"
 with open(file_name, "w") as json_file:
     json.dump(results, json_file, indent=4)
 
