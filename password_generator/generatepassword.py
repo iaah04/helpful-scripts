@@ -8,10 +8,12 @@ parser = argparse.ArgumentParser(description="Generate a password.")
 parser.add_argument("-l", "--length", type=int, help="Length of password.")
 args = parser.parse_args()
 
+
 def generate_password(length):
     characters = string.ascii_letters + string.digits + "!@#$%^&*()"
     password = "".join(random.choice(characters) for _ in range(length))
     return password
+
 
 if args.length:
     if args.length < 12:

@@ -31,6 +31,6 @@ mv generatepassword.py generatepassword
 mv ./generatepassword /usr/local/bin
 ```
 
-6. Usage of the scripts is on description.txt file.
-
 Tnx [this](https://pythobyte.com/create-custom-terminal-command-1dr0yhg33s-eef956b2/) guide 🖤
+
+## Virtual enviroment
