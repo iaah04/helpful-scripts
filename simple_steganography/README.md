@@ -1,14 +1,20 @@
-Usage:
+## Usage:
 
 !!! No validation and tests !!!
 
 decode:
+
+```
 python3 stegachanbrain.py -e -m "Hello" -op "./origin_picture.png" -rp "./result_picture.png"
+```
 
 encode:
-python3 stegachanbrain.py -d -op "./result_picture.png"
 
-***
+```
+python3 stegachanbrain.py -d -op "./result_picture.png"
+```
+
+## Algorithm
 
 Eng.
 Some theoretical information:
