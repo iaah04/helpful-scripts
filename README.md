@@ -1,4 +1,4 @@
-# helpful (or not really) scripts
+# Helpful (or not really) scripts
 
 ## Instalation
 
