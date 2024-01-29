@@ -1,7 +1,3 @@
-# Warning
-This scripts are used for comfortable working with archives.
-About Tor. I never used it for illegal activities and these scripts only for education and entertainment purpose.
-
 # Description
 1. make_json.py - write link (only for clear site) and it will create a json files with all links on this site
 2. sort_sites.py - sort union and clear links
@@ -44,5 +40,5 @@ like that:
 SocksPort 9050
 ```
 
-Thanks this guide:
-https://medium.com/@jasonrigden/using-tor-with-the-python-request-library-79015b2606cb
+# Resources
+- [Guide how to ping sites from tor](https://medium.com/@jasonrigden/using-tor-with-the-python-request-library-79015b2606cb)

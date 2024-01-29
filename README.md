@@ -39,7 +39,8 @@ mv ./generatepassword /usr/local/bin
 generatepassword
 ```
 
-Tnx [this](https://pythobyte.com/create-custom-terminal-command-1dr0yhg33s-eef956b2/) guide 🖤
+# Resources
+- [Guide how to create custom command](https://pythobyte.com/create-custom-terminal-command-1dr0yhg33s-eef956b2/)
 
 ## Usage with virtual enviroment
 
