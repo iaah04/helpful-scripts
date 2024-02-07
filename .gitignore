@@ -1,11 +1,9 @@
 
-# .DS_Store
+# system
 .DS_Store
-./password_generator/.DS_Store
-./simple_steganography/.DS_Store
 
 # env
-./simple_steganography/myenv
+myenv
 
-# grey scripts
-./knock_knock_sites
+# not working
+knock_knock_sites
